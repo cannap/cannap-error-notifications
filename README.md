@@ -1,0 +1,1 @@
+Shows Browser Notification on any Meteor.Error
