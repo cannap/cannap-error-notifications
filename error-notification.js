@@ -7,12 +7,8 @@ if (window.Notification && !Notify.needsPermission) {
             icon: '/packages/cannap_error-notification/img/meteor.png'
         });
         myNotification.show();
-        return original(err,stack);
-
-
+        return original(err, stack);
     }
-
-
 
 } else if (Notify.isSupported()) {
     Notify.requestPermission();
